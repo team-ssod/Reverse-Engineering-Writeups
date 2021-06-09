@@ -25,7 +25,7 @@ I had really no idea to how to use work around to get the flags.
 
 So I made a big brain frustating move `using the txt file to reconstruct the binary somehow`...
 
-Guys I am telling you..This is always will be one of the decisions in my life that I would regret till the end of my days and I am little bit happy to as it one of the steps i used it to get the flag.
+Guys I am telling you..This is always will be one of the decisions in my life that I would regret till the end of my days and I am little bit happy too as it one of the steps that lead me to the flag.
 
 My first step to implement this idea was to write a python script to remove instructions being repeated and order these instructions in a ascending order.
 
