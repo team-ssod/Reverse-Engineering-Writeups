@@ -31,3 +31,20 @@ So I wrote a python script called `unique.py` and pipe its output to file called
 ![python_program](https://github.com/team-ssod/Reverse-Engineering-Writeups/blob/main/Zh3ro-ctf-v2/Eat%20Sleep%20Trace%20Repeat/images/estr2.png)
 
 ![piping the output to asm](https://github.com/team-ssod/Reverse-Engineering-Writeups/blob/main/Zh3ro-ctf-v2/Eat%20Sleep%20Trace%20Repeat/images/estr3.png)
+
+But on sight seasoned veteran reverse engineers and asm programmers will know on sight that the above asm cannote be compiled to binary.
+
+So I had to make a copy named `final2.asm`..Because I need to look on the original instructions and even if I make some mistakes..
+
+The file called `final2.asm` is going to be the reconstructed binary where the `final.asm` is going to be the file I am going to use it for some lookups..
+
+But there were some problems like  creating .data and .bss  section for binary.. 
+
+Because the unintialized data which goes in .bss and and some initialized data which goes in .data section are not in perfect place..
+
+![.data contents](https://github.com/team-ssod/Reverse-Engineering-Writeups/blob/main/Zh3ro-ctf-v2/Eat%20Sleep%20Trace%20Repeat/images/estr6.png)
+![read_bss_contents](https://github.com/team-ssod/Reverse-Engineering-Writeups/blob/main/Zh3ro-ctf-v2/Eat%20Sleep%20Trace%20Repeat/images/estr4.png)
+![some_more_bss](https://github.com/team-ssod/Reverse-Engineering-Writeups/blob/main/Zh3ro-ctf-v2/Eat%20Sleep%20Trace%20Repeat/images/estr5.png)
+![some_more_bss](https://github.com/team-ssod/Reverse-Engineering-Writeups/blob/main/Zh3ro-ctf-v2/Eat%20Sleep%20Trace%20Repeat/images/estr7.png)
+
+creating functions for `call instructions` and also jump labels for some `jump instructions`..
