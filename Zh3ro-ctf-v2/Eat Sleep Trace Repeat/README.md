@@ -1,6 +1,8 @@
 # Writeup for the Eat sleep Trace Repeat:
 The file provided for the challenge was a simple text file named `trace.txt` 
+
 Then I had the same reaction every reverse engineers would have when they see a txt file instead of a binary.
+
 Still I proceeded to see the contents of the text file.
 It was filled was `asm`.
 A part of the contents of the file are:-
