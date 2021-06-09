@@ -17,7 +17,7 @@ A part of the contents of the file are:-
 Then I kinda looked at the numbering near the instructions these instructions all are not in order..And also my eye caught on something more the 
 instructions are exactly in the order in which they are executed.. 
 
-The first instruction in above image makes a `call to 0x401068` and the instruction is exactly the `0x401068 instruction`.
+The first instruction in above image makes a `call to 0x401068` and then the next instruction is exactly the `0x401068 instruction`.
 
 As I glanced on the text file ..Same set of instructions getting executed multiple times maybe there are some huge loops present....
 
