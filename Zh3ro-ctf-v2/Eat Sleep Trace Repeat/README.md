@@ -8,7 +8,7 @@ Then I had the same reaction every reverse engineers would have when they see a 
 
 Still I proceeded to see the contents of the text file.
 
-It was filled was `asm`.
+It was filled with `asm`.
 
 A part of the contents of the file are:-
 
