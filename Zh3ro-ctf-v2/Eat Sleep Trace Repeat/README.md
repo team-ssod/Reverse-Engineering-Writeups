@@ -91,7 +91,7 @@ After scratching my head for a long time ..Suddenly like a bolt from the blue an
 
 The idea that struck in my mind is they give a trace right..There should be a person who could have entered the password and that trace of instructions of how the value  compared must have been present here.
 
-The plan is to know the amount of how many times in the second loop a single character is getting compared with.. Because in this way the instructions after the compare will be the breaking point and the compare instruction will determine the number of times before the breaking instruction hits ..In this case the breaking instruction here is `dec rdx`.
+The plan is to know the amount of how many times in the second loop a single input character is getting compared with.. Because in this way the instructions after the compare will be the breaking point and the compare instruction will determine the number of times before the breaking instruction hits ..In this case the breaking instruction here is `dec rdx`.
 
 ![compare_instructions](https://github.com/team-ssod/Reverse-Engineering-Writeups/blob/main/Zh3ro-ctf-v2/Eat%20Sleep%20Trace%20Repeat/images/estr11.png)
 
