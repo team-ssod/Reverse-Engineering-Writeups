@@ -9,4 +9,4 @@ It was filled was `asm`.
 
 A part of the contents of the file are:-
 
-![alt_text](https://github.com/team-ssod/Reverse-Engineering-Writeups/blob/main/Zh3ro-ctf-v2/Eat%20Sleep%20Trace%20Repeat/images/estr1.png)
+![text file contents](https://github.com/team-ssod/Reverse-Engineering-Writeups/blob/main/Zh3ro-ctf-v2/Eat%20Sleep%20Trace%20Repeat/images/estr1.png)
